@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(../images/white_tiles.png);
+
+}
+
+.nav,
+.logo {
+
+    color: black;
+    /* background-color: burlywood; */
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.nav-link {
+
+    font-size: 20px;
+    color: black;
+    font-style: oblique;
+    font-weight: 500;
+
+}
+
+.main-container {
+    margin: 5%;
+    margin-bottom: 5%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.card {
+    margin-top: 5%;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+ 
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card-body {
+    text-align: center;
+
+}
+
+.video {
+
+    margin-top: 5%;
+
+    text-align: center;
+}
+
+.phone-section {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.fa {
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 15px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
+  .fa-instagram {
+    background-color: blue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(225, 241, 49), rgb(237, 30, 178));
+    color: white;
+  }
+  
+  .footer{
+      text-align: center;
+  }
+
+.link  {
+      font-style: oblique;
+      color: blue;
+  }
