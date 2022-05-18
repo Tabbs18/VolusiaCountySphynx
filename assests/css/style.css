@@ -101,3 +101,8 @@ body {
   .footer{
       text-align: center;
   }
+
+.link  {
+      font-style: oblique;
+      color: blue;
+  }
